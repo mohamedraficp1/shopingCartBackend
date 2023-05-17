@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.37.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "googleapis": "^113.0.0",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.6.0",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.19",
+    "npm": "^9.6.2"
+  }
+}
