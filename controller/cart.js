@@ -38,7 +38,7 @@ exports.removeFromCart = async (req, res) => {
 
 exports.listCartItems = async (req, res) => {
   try {
-    const cartItems = await Cart.find().populate("productId");
+    const cartItems = await Cart.find();
     res.json(cartItems);
   } catch (error) {
     res.status(500).json({ error: "Failed to fetch cart items" });
